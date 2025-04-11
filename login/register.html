@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Siapasangka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="register-page">
+    <div class="card register-card">
+        <div class="register-container">
+            <h1>Welcome!</h1>
+            <p class="subtitle">Create your account</p>
+            
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Your username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Your password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                
+                <div class="divider">
+                    <span>or</span>
+                </div>
+                
+                <button type="button" class="google-btn">
+                    <img src="../images/google.svg" alt="Google">
+                    Sign up with Google
+                </button>
+                
+                <button type="submit" class="register-btn">Register</button>
+                
+                <p class="login-text">
+                    Already have an account? <a href="login.html">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

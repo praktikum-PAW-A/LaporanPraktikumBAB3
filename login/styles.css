@@ -1,0 +1,360 @@
+/* Styling untuk halaman register */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk halaman login */
+body.login-page {
+    background-image: url('../images/Sepatufull2.svg'); /* Background untuk halaman login */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styling untuk halaman register */
+body.register-page {
+    background-image: url('../images/Sepatufull3.svg'); /* Background untuk halaman register */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    width: 640px;
+    height: 845px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+body.register-page .register-card {
+    margin-left: 100px; /* Pindahkan card ke sebelah kiri */
+    margin-right: auto; /* Hilangkan margin kanan */
+    text-align: center; /* Pastikan teks tetap rata tengah di dalam card */
+    position: relative; /* Pastikan posisi card tidak terpengaruh elemen lain */
+}
+/* Styling untuk card di halaman login */
+.login-card {
+    margin-left: auto; /* Tetap di sebelah kanan */
+    margin-right: 100px;
+}
+
+/* Styling untuk card di halaman register */
+.register-card {
+    margin-left: 100px; /* Pindahkan card ke sebelah kiri */
+    margin-right: auto; /* Hilangkan margin kanan */
+    text-align: center; /* Pastikan teks tetap rata tengah di dalam card */
+}
+
+.register-container {
+    width: 80%;
+    max-width: 450px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.divider span {
+    background-color: white;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google-btn img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffd1dc;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-text {
+    font-size: 14px;
+}
+
+.login-text a {
+    color: #ff6b9d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card {
+    width: 640px;
+    height: 845px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.login-container {
+    width: 80%;
+    max-width: 450px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.divider span {
+    background-color: white;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google-btn img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffd1dc;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.register-text {
+    font-size: 14px;
+}
+
+.register-text a {
+    color: #ff6b9d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsif untuk layar kecil (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Hilangkan background untuk halaman login dan register */
+    body.login-page,
+    body.register-page {
+        background-image: none; /* Hilangkan background */
+        justify-content: center; /* Pastikan card tetap di tengah */
+        align-items: center; /* Pastikan card tetap di tengah */
+    }
+
+    /* Card di halaman login */
+    .login-card {
+        width: 90%; /* Lebar card menyesuaikan layar */
+        height: auto; /* Tinggi card menyesuaikan konten */
+        margin: 20px auto; /* Card berada di tengah dengan margin */
+    }
+
+    /* Card di halaman register */
+    .register-card {
+        width: 90%; /* Lebar card menyesuaikan layar */
+        height: auto; /* Tinggi card menyesuaikan konten */
+        margin: 20px auto; /* Card berada di tengah dengan margin */
+    }
+
+    /* Container di dalam card */
+    .login-container,
+    .register-container {
+        width: 100%; /* Lebar penuh */
+        max-width: none; /* Hilangkan batas maksimum */
+        padding: 20px; /* Tambahkan padding untuk ruang */
+    }
+
+    /* Teks judul dan subtitle */
+    h1 {
+        font-size: 24px; /* Ukuran font lebih kecil */
+        text-align: left; /* Tetap rata kiri */
+    }
+
+    .subtitle {
+        font-size: 16px; /* Ukuran font lebih kecil */
+        text-align: left; /* Tetap rata kiri */
+    }
+
+    /* Input dan tombol */
+    input,
+    button {
+        font-size: 14px; /* Ukuran font lebih kecil */
+        padding: 12px; /* Padding lebih kecil */
+    }
+
+    /* Divider */
+    .divider {
+        margin: 20px 0; /* Kurangi margin atas dan bawah */
+    }
+
+    /* Tombol Google */
+    .google-btn {
+        font-size: 14px; /* Ukuran font lebih kecil */
+        padding: 10px; /* Padding lebih kecil */
+    }
+
+    /* Tombol Register dan Login */
+    .register-btn,
+    .login-btn {
+        font-size: 14px; /* Ukuran font lebih kecil */
+        padding: 12px; /* Padding lebih kecil */
+    }
+}
