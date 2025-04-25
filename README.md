@@ -2,8 +2,6 @@
 
 Membuat login & Register menggunakan design yang telah kita buat pada pertemuan sebelumnya
 
-## PASPAM LOR DEVA
-
     Praktikum assistant
         - Muhammad Ridha
     Author :
